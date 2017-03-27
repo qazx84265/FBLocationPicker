@@ -45,7 +45,7 @@
         
         if (CLLocationCoordinate2DIsValid(coor)) {
             strongSelf.latLabel.text = [NSString stringWithFormat:@"lat: %.6f", coor.latitude];
-            strongSelf.lngLabel.text = [NSString stringWithFormat:@"lat: %.6f", coor.longitude];
+            strongSelf.lngLabel.text = [NSString stringWithFormat:@"lng: %.6f", coor.longitude];
         }
         if (formatLocation) {
             strongSelf.locationLabel.text = formatLocation;
